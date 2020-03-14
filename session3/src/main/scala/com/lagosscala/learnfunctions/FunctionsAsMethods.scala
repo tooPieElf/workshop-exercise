@@ -6,12 +6,21 @@ package com.lagosscala.learnfunctions
   * When functions are members of an object they are called Methods \
   * Example methods
   */
-object FunctionsAsMethods {
+object FunctionsAsMethods extends App {
 
-    def area(width: Int, breath: Int) : Int = ???
+
+    def area(width: Int, breath: Int) : Int = {
+      width * breath
+    }
 
     /**Methods can house control statement and many other scala features**/
-    def speak(name: String) : String = ???
+    def speak(name: String) : String = {
+      if(name == "John"){
+        s"My name is John"
+      }else{
+        s"You just renamed me as $name"
+      }
+    }
 
 }
 

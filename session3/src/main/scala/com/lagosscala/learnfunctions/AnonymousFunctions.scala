@@ -4,7 +4,7 @@ object AnonymousFunctions {
 
 
   //Function literal.
-  lazy val callFiltered  = ???
+  lazy val callFiltered : List[Int]  = ???
 
   lazy val callFilteredPlaceholder = ???
 
